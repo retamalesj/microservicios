@@ -1,0 +1,7 @@
+curl -X POST http://localhost:5000/players -H "Content-Type: application/json" -d '{
+  "name": "Pablo Retamales",
+  "age": 22,
+  "number": 8,
+  "team_id": "66ba5a9ccbe14991232f41a1",
+  "description": "Delantero joven chileno, maestro de la fuchibola"
+}'
